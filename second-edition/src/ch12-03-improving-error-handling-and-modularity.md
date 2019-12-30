@@ -107,8 +107,8 @@ fn parse_config(args: &[String]) -> (&str, &str) {
 보수 담당자가 서로 다른 값이 서로 어떻게 관련되어 있고 그 목적이 무엇인지 쉽게 이해할 수
 있습니다.
 
-> Note: some people call this anti-pattern of using primitive values when a
-> complex type would be more appropriate *primitive obsession*.
+> 주의: 어떤 사람들은 원시 자료형을 쓰는 안티 패턴을 선호하기도 하는데, 
+> 복잡한 유형을 사용하는 것이 *강박적 기본타입 사용(primitive obsession)* 보다 적절합니다.
 
 항목 12-6에서 `query`와 `filename`을 필드로 갖는 `Config`란 구조체 정의가
 추가된 것을 볼 수 있습니다. 우리는 또한 `parse_config` 함수를 변경하여 `Config`
