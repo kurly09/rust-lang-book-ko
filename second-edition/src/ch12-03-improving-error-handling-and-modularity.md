@@ -222,8 +222,8 @@ impl Config {
 }
 ```
 
-<span class="caption">Listing 12-7: Changing `parse_config` into
-`Config::new`</span>
+<span class="caption">항목 12-7: `parse_config`  를
+`Config::new` 애 포함하도록 변경</span>
 
 우리는 `main`을 갱신하여 `parse_config`를 호출하는 대신 `Config::new`를 
 호출하게 되었습니다. 우리는 `parse_config`의 이름을 `new`로 바꾸고 그를 `impl`블록 
