@@ -146,7 +146,7 @@ fn parse_config(args: &[String]) -> Config {
 }
 ```
 
-Listing 12-6: Refactoring `parse_config` to return an instance of a `Config` struct
+항목 12-6: `parse_config` 가 `Config` 구조체의 인스턴스를 반환하도록 리팩토링
 
 이제 `parse_config`의 선언은 `Config` 값을 반환한다는 것을 알려줍니다. 
 `parse_config` 의 내부에서는 `args`의 `String`값을 참조하는 문자열 조각을
