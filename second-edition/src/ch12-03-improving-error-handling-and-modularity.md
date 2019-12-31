@@ -77,8 +77,7 @@ fn parse_config(args: &[String]) -> (&str, &str) {
 }
 ```
 
-<span class="caption">Listing 12-5: Extract a `parse_config` function from
-`main`</span>
+<span class="caption">항목 12-5: `main` 에서 `parse_config`  추출하기</span>
 
 우리는 아직 커맨드라인 인자들을 벡터로 수집하고 있는데, 인덱스 1의 인수 값을 변수 `query`
 에, 인덱스 2의 인수 값을 `main` 함수 내의 변수 `filename`에 할당하는 대신에 전체
